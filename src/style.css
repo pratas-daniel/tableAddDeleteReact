@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 100%;
+}
+
+header {
+  margin-top: 5vh;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  margin-top: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+table {
+  border: 1px solid black;
+  width: 70%;
+}
+
+th {
+  font-weight: bold;
+  border: 1px solid black;
+  font-size: 170%;
+}
+
+td {
+  border: 1px solid black;
+  font-size: 150%;
+}
+
+span {
+  color: red;
+  font-size: 120%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  body {
+    font-size: 70%;
+  }
+
+  span {
+    display: block;
+  }
+
+  th {
+    font-size: 140%;
+  }
+
+  td {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  body {
+    font-size: 50%;
+  }
+
+  th {
+    font-size: 120%;
+  }
+
+  td {
+    font-size: 100%;
+  }
+}
